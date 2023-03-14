@@ -1,0 +1,339 @@
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgLogo {
+  text-align: center;
+  width: 100%;
+  height: 30vh;
+  background-image: url("../assets/imges/tenis.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+#cartbuttonconteiner {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#cartbuttonconteiner img {
+  width: 100%;
+  height: 100%;
+}
+
+#cartbutton {
+  width: 200px;
+  height: 200px;
+
+}
+
+.logoTenis {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 200px;
+  height: 200px;
+}
+
+.navItem {
+  list-style: none;
+  margin-bottom: 7px;
+}
+
+.divUl {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBarTop {
+
+
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBarTop ul {
+  margin-right: 15px;
+}
+
+.navBarTop ul li {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  list-style: none;
+  color: #050505;
+  font-size: 1.1rem;
+}
+
+.navBarTop ul li a {
+  color: black;
+}
+
+.mainInicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #ff9900 !important;
+}
+
+.classsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.classmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 100px;
+}
+
+.descripcion {
+  text-align: center;
+  max-width: 300px;
+  white-space: break-spaces;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #ff9900 !important;
+}
+
+.classsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.classmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 100px;
+  margin-top: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.descripcion {
+  text-align: center;
+  max-width: 300px;
+  white-space: break-spaces;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #ff9900 !important;
+}
+
+.contactanos {
+  height: 50vh;
+  text-align: center;
+  margin-top: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.adentro {
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
+  width: 50%;
+  height: 40px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column margin-top 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.mapaLugar {
+  height: 500px;
+  width: 100%;
+}
+
+.logo {
+  height: 60px;
+  width: 50px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  background-color: coral;
+  width: 100%;
+  gap: 20px;
+}
+
+.mainerror {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error {
+  height: 600px;
+  width: 600px;
+}
+
+.textoerror {
+  text-align: center;
+}
+
+#carrito {
+  position: absolute;
+  width: 500px !important;
+  height: 400px;
+  background-color: black;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 3;
+  opacity: .9;
+  right: 0;
+  color: white;
+  width: fit-content;
+  border-radius: 10px;
+  display: none;
+  opacity: 0;
+  transition: all 200ms;
+}
+
+#carrito h3 {
+  position: relative;
+  left: 10px;
+}
+
+#carrito .element {
+  display: grid;
+  grid-template-areas:
+    "1 2 3 4";
+  background-color: rgb(53, 53, 53);
+  margin-bottom: 10px;
+  margin: 10px;
+  padding: 3px;
+  border-radius: 7px;
+}
+
+#carrito .element img {
+  width: 50px;
+  padding: 0;
+  margin-left: 0;
+}
+
+#carrito .element * {
+  margin: auto 20px;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+  border: 0;
+}
+
+#elements {
+  margin-top: 10px;
+  overflow-x: scroll;
+  height: 380px;
+}
+
+#elements::-webkit-scrollbar {
+  display: none;
+}
+
+#quantity {
+  width: 40px;
+  text-align: center;
+  outline: 0;
+  color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+
+#buycart {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 150px;
+  outline: 0;
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#carritoText {
+  margin-left: 10px;
+  font-weight: bolder;
+}

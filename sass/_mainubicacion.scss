@@ -1,0 +1,13 @@
+.mapa {
+    @include center-flex-center;
+    flex-direction: column margin-top 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    ;
+}
+
+.mapaLugar {
+    height: 500px;
+    width: $width;
+
+}
