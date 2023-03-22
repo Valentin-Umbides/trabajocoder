@@ -1,0 +1,32 @@
+[
+    
+        {
+            "nombre":"raqueta Blade", 
+            "precio": 35000
+        },
+        {
+            "nombre": " raqueta Burn", 
+            "precio": 37000
+        },
+        {
+            "nombre": "raqueta Clash", 
+            "precio": 38000
+        },
+        {
+            "nombre": "raqueta Pure Aero", 
+            "precio": 40000
+        },
+        {
+            "nombre": "raqueta Pure Drive ", 
+            "precio": 40000
+        },
+        {
+            "nombre": "raqueta Pure Aero", 
+            "precio": 40000
+        },
+        {
+            "nombre":"raqueta Pure Strike", 
+            "precio": 40000
+        }
+      
+]
